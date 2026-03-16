@@ -22,6 +22,7 @@ function obtenerServicios(): array{
       $servicios[$i]['precio'] = $row['precio']; 
 
       $i++;
+      //Dentro de este while, se va a ir agregando los resultados de la consulta a un arreglo unico
     }
 
     return $servicios; //Retorna el arreglo con los resultados de la consulta
